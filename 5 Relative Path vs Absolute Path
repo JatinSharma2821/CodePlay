@@ -1,0 +1,14 @@
+Well , in index while linking courses.htm 'Contact Us.htm' or CodePlay.htm we link these htm files just by writing their names
+bcz they are in same folder
+
+
+to be exact , upto now we have linked files available in our Laptop only and these cannot be accessed by any other computer
+so these files are present relative to index.htm or vice-versa for this system but not for others
+----So , it is relative path
+e.g b- 
+        HTML/Contact Us.htm
+
+
+Relative  Path -- Exact path of file that any program can access 
+e.g- 
+        /home/codeplay/Documents/Web Development/HTML/Contact Us.htm

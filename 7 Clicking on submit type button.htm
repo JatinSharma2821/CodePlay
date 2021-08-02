@@ -1,0 +1,41 @@
+<!-- After entering data in form , when we click on <input type="submit"> , a sudden change in url is seen  
+    ,and initial url it adds our all entered data alongwioth name attribute value
+
+    It is sort of query string trying to store data with 'name attribute value' as field -->
+
+    <!--
+    firstname=abc&lastname=def&birthday-date=1111-11-21&gen=on&email=dfgrs%40dvknds.com&username=fbsdcvb&password=dvcnsdlvndsln&password=name%3D"password"&number=15315641861    
+    >> simplying above url , we get following data - 
+
+        firstname=abc
+        &lastname=def
+        &birthday-date=1111-11-21
+
+        &gen=on 
+        // see here it shows gen=on and not the option that we selected bcz we didnt use value attribute
+        // with type=radio , value is must for each option
+        
+
+        &email=dfgrs%40dvknds.com
+        &username=fbsdcvb
+        &password=dvcnsdlvndsln
+        &password=name%3D"password"
+        &number=15315641861
+
+        in order to store <select> tag information , we require <name> attribute , 
+            so don't forget to include name attribute , otherwise info won't be saved
+    
+
+    Hence-->
+
+    <!-- It is called Query String
+    It is one way for us ,to store our information in backend or server
+    because we have to store this information somewhere
+    so that when we come again on this page, website remembers us 
+
+    Although we are using <forn> tag only but by default
+        <form> == <form method="GET" -- GET attribute , attachs form info to URL , we can see Query String-->
+
+    <!--
+        <form method="POST" -- POST attachs form data with body of request , so we cannot see any change in URL
+    -->
